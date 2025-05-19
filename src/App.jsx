@@ -10,12 +10,14 @@ import AttractionFeedTester from './AttractionFeedTester'
 function App() {
   return (
     <div className=' Ttile  bg-zinc-900 '>
+      <AttractionFeedTester />
       <SponsorOrgButtons/>
       <SponsorCampaignTester />
       <AuthButtons />
       <SponseeOrgButtons />
       <SponseeAttractionTester/>
       <CampaignFeedTester />
+
     </div>
   )
 }
